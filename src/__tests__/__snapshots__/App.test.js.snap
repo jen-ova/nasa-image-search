@@ -6,13 +6,23 @@ exports[`renders correctly 1`] = `
     class="App"
   >
     <img
-      alt="NASA"
-      class="NASA-logo"
+      alt="NASAlogo"
+      class="nasa-logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
-    <input
-      type="text"
-    />
+    <form>
+      <input
+        class="search-input"
+        type="text"
+        value=""
+      />
+      <button
+        class="search-button"
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
   </div>
 </DocumentFragment>
 `;

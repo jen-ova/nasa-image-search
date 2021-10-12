@@ -9,7 +9,8 @@
     align-items: center;
 }
 
-.NASA-logo {
-    width: 15rem;
+.nasa-logo {
+    margin: auto;
+    width: 30rem;
     height: auto;
 }

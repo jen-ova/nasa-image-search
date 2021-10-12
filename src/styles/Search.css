@@ -1,4 +1,21 @@
-body {
+form {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+}
+
+.search-input {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.search-button {
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: #be0317;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
 }
