@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <img
+      alt="NASA"
+      class="NASA-logo"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    />
+    <input
+      type="text"
+    />
+  </div>
+</DocumentFragment>
+`;
