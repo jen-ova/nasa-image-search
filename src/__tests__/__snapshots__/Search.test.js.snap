@@ -2,11 +2,12 @@
 
 exports[`renders correctly 1`] = `
 <DocumentFragment>
-  <form>
+  <form
+    class="search-form"
+  >
     <input
       class="search-input"
       type="text"
-      value=""
     />
     <button
       class="search-button"
