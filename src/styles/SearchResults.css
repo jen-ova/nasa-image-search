@@ -20,3 +20,9 @@ p {
 .card-image:hover {
     transform: scale(1.2);
 }
+
+@media only screen and (max-width: 750px) {
+    .images {
+      flex: 0 0 45%;
+    }
+}

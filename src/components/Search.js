@@ -24,7 +24,7 @@ function Search({ setSearchResults }) {
           type="submit"
           className="search-button"
           data-testid="search__button">
-          Search
+          Go!
         </button>
       </form>
     </>

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# NASA Image Search (React Technical Test)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React web application that allows users to search for images based on a keyword.
 
 ## Available Scripts
 
