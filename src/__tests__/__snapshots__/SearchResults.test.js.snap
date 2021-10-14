@@ -2,9 +2,6 @@
 
 exports[`SearchResults renders correctly 1`] = `
 <DocumentFragment>
-  <p>
-    Search Results
-  </p>
   <div
     class="search-results__cards"
   >

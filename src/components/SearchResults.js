@@ -1,16 +1,16 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../styles/SearchResults.css";
 
 function SearchResults({ results }) {
   if (!results.length) {
-    return <p>No results</p>;
+    return null;
   } else {
     return (
       <>
-        <p>Search Results</p>
         <div className="search-results__cards">
-          {results.map((image) => (
-            <a href={image} target="_blank" rel="noreferrer" key={image}>
+          {results.map((image, index) => (
+            <a href={image} target="_blank" rel="noreferrer" key={index}>
               <img
                 key={image}
                 className="card-image"
@@ -25,5 +25,9 @@ function SearchResults({ results }) {
     );
   }
 }
+
+SearchResults.propTypes = {
+  results: PropTypes.array.isRequired,
+};
 
 export default SearchResults;

@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import SearchResults from "../components/SearchResults";
 
 describe("SearchResults", () => {
@@ -16,8 +16,8 @@ describe("SearchResults", () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  //   it("renders the expected number of images", () => {
-  //     const { getAllByTestId } = render(<SearchResults results={images} />);
-  //     expect(getAllByTestId("image")).toHaveLength(4);
-  //   });
+  it("renders the expected number of images", () => {
+    const { getAllByTestId } = render(<SearchResults results={images} />);
+    expect(getAllByTestId("image")).toHaveLength(4);
+  });
 });
