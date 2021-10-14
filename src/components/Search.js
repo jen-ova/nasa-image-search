@@ -5,13 +5,6 @@ import "../styles/Search.css";
 function Search({ setSearchResults }) {
   const [value, setValue] = useState();
 
-  //   const handleSubmit = async (event) => {
-  //     event.preventDefault();
-  //     const images = await getImages(value);
-  //     console.log(images);
-  //     return images;
-  //   };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
     setSearchResults(await getImages(value));
