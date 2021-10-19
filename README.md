@@ -1,71 +1,57 @@
-# NASA Image Search (React Technical Test)
+# NASA Search Engine by Jen Stewart - [Live here](https://nasa-image-search-pi.vercel.app/)! 
+✨ 💫 🌟 🌙 ⚡🌛 ⭐
 
-A React web application that allows users to search for images based on a keyword.
-https://nasa-image-search-pi.vercel.app/
+A React web application that allows users to search for images from the NASA API endpoint. Part of the MCR Codes curriculum, acting as a mock technical test.
 
-## Available Scripts
+### Desktop preview:
 
-In the project directory, you can run:
+<img src="https://github.com/jen-ova/nasa-image-search/blob/main/public/assets/desktop.png" width=50% height=50%>
 
-### `npm start`
+### Mobile preview:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://github.com/jen-ova/nasa-image-search/blob/main/public/assets/mobile.png" width=50% height=50%>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Built with:
 
-### `npm test`
+- React
+- HTML
+- CSS
+- JavaScript
+- Node.js
+
+## Tested with:
+
+- Jest
+- React Testing Library
+
+## NPM packages used:
+
+- Axios
+- PropTypes
+
+## How to install
+
+    $ git clone https://github.com/deanspooner/nasa-search-engine
+    $ cd nasa-search-engine
+    $ npm install
+
+## How to run
+
+    $ npm start
+
+This will run the NASA Search Engine web app in development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+If you make and save any edits or changes, the page will reload to show these.
+
+## Test
+
+    $ npm test
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Next steps:
+- Add image descriptions to populated image alt tags
+- Add lightbox feature to open images
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## By [Jen Stewart](https://github.com/jen-ova) 🪐
