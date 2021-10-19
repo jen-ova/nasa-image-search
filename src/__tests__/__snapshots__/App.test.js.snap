@@ -23,7 +23,7 @@ exports[`renders correctly 1`] = `
         data-testid="search__button"
         type="submit"
       >
-        Search
+        Go!
       </button>
     </form>
   </div>

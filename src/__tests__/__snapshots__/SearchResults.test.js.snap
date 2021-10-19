@@ -11,7 +11,7 @@ exports[`SearchResults renders correctly 1`] = `
       target="_blank"
     >
       <img
-        alt="space-pic"
+        alt="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
         class="card-image"
         data-testid="image"
         src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
@@ -23,7 +23,7 @@ exports[`SearchResults renders correctly 1`] = `
       target="_blank"
     >
       <img
-        alt="space-pic"
+        alt="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
         class="card-image"
         data-testid="image"
         src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
@@ -35,7 +35,7 @@ exports[`SearchResults renders correctly 1`] = `
       target="_blank"
     >
       <img
-        alt="space-pic"
+        alt="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
         class="card-image"
         data-testid="image"
         src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
@@ -47,7 +47,7 @@ exports[`SearchResults renders correctly 1`] = `
       target="_blank"
     >
       <img
-        alt="space-pic"
+        alt="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
         class="card-image"
         data-testid="image"
         src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"

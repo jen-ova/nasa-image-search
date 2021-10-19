@@ -2,9 +2,16 @@ import React from "react";
 import PropTypes from "prop-types";
 import "../styles/SearchResults.css";
 
-function SearchResults({ results }) {
-  if (!results.length) {
+function SearchResults({ results, hasSearched }) {
+  if (results.length === 0 && hasSearched === false) {
     return null;
+  }
+  if (results.length === 0 && hasSearched === true) {
+    return (
+      <p className="search-results__no-results">
+        Sorry, no results exist for this search! Please try again.
+      </p>
+    );
   } else {
     return (
       <>
@@ -15,7 +22,7 @@ function SearchResults({ results }) {
                 key={image}
                 className="card-image"
                 src={image}
-                alt="space-pic"
+                alt={image}
                 data-testid="image"
               />
             </a>

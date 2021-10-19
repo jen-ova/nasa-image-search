@@ -2,6 +2,17 @@ p {
     padding: 1rem;
 }
 
+.search-results__no-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #be0317;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem;
+  }
+
 .search-results__cards {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +26,7 @@ p {
     width: 15rem;
     height: 10rem; 
     object-fit: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .card-image:hover {
@@ -26,3 +38,4 @@ p {
       flex: 0 0 45%;
     }
 }
+

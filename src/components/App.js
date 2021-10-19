@@ -5,6 +5,7 @@ import "../styles/App.css";
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
+  const [hasSearched, setHasSearched] = useState(false);
 
   return (
     <div className="App">
@@ -13,8 +14,12 @@ function App() {
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
         alt="NASAlogo"
       />
-      <Search className="search" setSearchResults={setSearchResults} />
-      <SearchResults results={searchResults} />
+      <Search
+        className="search"
+        setSearchResults={setSearchResults}
+        setHasSearched={setHasSearched}
+      />
+      <SearchResults results={searchResults} hasSearched={hasSearched} />
     </div>
   );
 }
